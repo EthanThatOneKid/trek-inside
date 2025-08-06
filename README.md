@@ -1,6 +1,7 @@
-# a-trip-to-uss-enterprise
+# Trek Inside
 
-Website documenting a trip to the set of Star Trek: The Next Generation.
+Website documenting a special trek inside the set of Star Trek: The Next
+Generation.
 
 ```sh
 deno -A jsr:@std/http/file-server
