@@ -3,17 +3,21 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Trek inside USS Enterprise-D</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trek inside USS Enterprise-D</title>
     <meta
       name="description"
       content="Website documenting a trip to the set of Star Trek: The Next Generation."
     >
-    <meta property="og:title" content="A Trek inside USS Enterprise-D">
+    <meta property="og:title" content="Trek inside USS Enterprise-D">
     <meta
       property="og:description"
       content="Website documenting a trip to the set of Star Trek: The Next Generation."
     >
     <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="stylesheet" href="lib/lcars-24.2/classic.css">
     <style>
       .decorative-text {
@@ -29,6 +33,19 @@
       /* Add spacing between image sections */
       section > section {
         margin-bottom: 20px;
+      }
+
+      /* Image loading optimizations */
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      /* Prevent layout shift during image loading */
+      figure {
+        margin: 0;
+        padding: 0;
       }
     </style>
   </head>
@@ -93,7 +110,7 @@
           </div>
           <main>
             <h1 class="uppercase font-african-violet">
-              A Trek inside USS Enterprise-D
+              Trek inside USS Enterprise-D
             </h1>
             <p class="uppercase font-gold">
               A special trek inside the set of Star Trek: The Next Generation.
@@ -769,7 +786,7 @@
           <hr class="lcars-bar">
           <footer class="lcars-element lcars-orange-bg lcars-text-box centered">
             <p class="uppercase font-african-violet">
-              &copy; 2025 A Trek inside USS Enterprise-D. All rights reserved.
+              &copy; 2025 Trek inside USS Enterprise-D. All rights reserved.
             </p>
             <p class="uppercase font-african-violet">
               LCARS Inspired Website Template by <a
